@@ -24,13 +24,13 @@ h2 {
 
 #header{   
     width: 100%;
-    height: 600px;
-    padding: 45px;
+    height: 80px;
     background-image: url("images/veruslogo_black.svg");
     background-size: contain;
     background-position: center;
     position: relative;
     background-repeat: no-repeat;
+    
 }
 
 .container{
@@ -43,6 +43,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 0;
 }
 
 .logo{
@@ -78,6 +79,49 @@ nav ul li a:hover::after{
     width: 100%;
 }
 
+/* Hero */
+
+.hero {
+    background-image: url('"C:\Users\anneo\Documents\GitHub\Final_Project\images\hero.png"');
+    position: relative; /* Add position relative */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Hide any overflow */
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  
+  .hero-content h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #f45642;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #e23d39;
+  }
+  
 
 /* FOOTER */
 .top-footer {
