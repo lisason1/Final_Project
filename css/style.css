@@ -8,15 +8,25 @@
     box-sizing: border-box;
 }
 body{
+    font-family: 'Montserrat';
     background: #1D202B;
-    color: #fff;
+    color: #F6F6F6;
 }
+h1 {
+  font-family: 'Audiowide';
+  font-size: 22px;
+}
+h2 {
+    font-family: 'Montserrat';
+    font-size: 22px;
+  }
+
 
 #header{   
     width: 100%;
     height: 600px;
     padding: 45px;
-    background-image: url(images/veruslogo_black.svg);
+    background-image: url("images/veruslogo_black.svg");
     background-size: contain;
     background-position: center;
     position: relative;
@@ -52,6 +62,7 @@ nav ul li a{
     position: relative;
 }
 
+/*addsitenav*/
 nav ul li a::after{
     content: '';
     width: 0%;
@@ -67,10 +78,6 @@ nav ul li a:hover::after{
     width: 100%;
 }
 
-body {
-    color: #F6F6F6;
-    font-family: 'Montserrat', sans-serif;
-}
 
 /* FOOTER */
 .top-footer {
@@ -110,13 +117,11 @@ body {
     font-size: 16px;
     font-weight: 600;
     color: #E268AE;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .footer-item-text {
     font-size: 16px;
     font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .footer-socials {
@@ -155,19 +160,28 @@ body {
     margin-left: 20px;
 }
 
-#bottom-copyright {
+.bottom-copyright {
     font-size: 12px;
     font-weight: 200;
     padding: 10px;
-    font-family: 'Montserrat', sans-serif;
     letter-spacing: normal;
 }
 
-#bottom-text {
+.utility-links {
     font-size: 12px;
     font-weight: 200;
     margin-left: 20px;
     padding: 10px;
-    font-family: 'Montserrat', sans-serif;
     letter-spacing: normal;
+    color: #F6F6F6;
+    text-decoration: none;
+    
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+
 }
