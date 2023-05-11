@@ -116,7 +116,7 @@ nav ul li a:hover::after {
 
 .hero-content h1 {
     font-size: 80px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .hero-content p {
@@ -164,14 +164,52 @@ nav ul li a:hover::after {
     background-color: #e23d39;
 }
 
+/* NEWSLETTER */
+.newsletter-card {
+    height: auto;
+    border: 2px solid #D41D86;
+    border-radius: 30px;
+    background-image: radial-gradient(ellipse farthest-corner at 45px 45px, rgba(226, 104, 174, 0.4) 0%, rgba(212, 29, 134, 0.2));
+}
+
+.newsletter-content {
+    padding: 50px;
+}
+
+.newsletter-content h1 {
+    font-size: 56px;
+    color: #D41D86;
+}
+
+.newsletter-content p {
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.newsletter-inputs {
+    display: flex;
+}
+
+.button-submit {
+    background-image: linear-gradient(45deg, rgba(212.00000256299973, 29.000000171363354, 134.00000721216202, 1) 0%, rgba(233.00000131130219, 142.00000673532486, 194.00000363588333, 1) 100%);
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
 
 /* FOOTER */
-
 .row {
     display: flex;
 }
 
 .top-footer {
+    padding-top: 40px;
     display: flex;
     justify-content: space-between;
 }
