@@ -9,32 +9,36 @@
 </head>
 
 
-    <!--HEADER/NAVIGATION-->
+<!--HEADER/NAVIGATIO/HERO-->
 
 <body>
-    <div id="header">
-        <div class="container">
-          <nav>
-            <img src="images/veruslogo_pink.svg" class="logo" >
-            <ul>
-              <li><a href=#>Events</a></li>
-              <li><a href=#>About</a></li>
-              <li><a href=#>Log in</a></li>
-              <li><a href=#>Sign Up</a></li>     
-            </ul>
-          </nav>
-        </div>
+  <div id="header">
+    <div class="hero-image">
+    <div class="container">
+        <nav>
+          <img src="images/veruslogo_pink.svg" class="logo">
+          <ul>
+            <li><a href=#>Events</a></li>
+            <li><a href=#>About</a></li>
+            <li><a href=#>Log in</a></li>
+            <li><a href=#>Sign Up</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
-</body>
-
-        
-
+  </div>
 
   <!--HERO-->
-  <section>
-    <h2>the future of live music is here</h2>
-
+  <section class="hero">
+      <div class="container hero-content">
+        <h1>THE FUTURE OF LIVE MUSIC IS HERE</h1>
+        <p>Verus specializes in virtual reality technology to deliver real-time live music experiences from anywhere in
+          the world for free.</p>
+        <button class="primary">Learn More</button>
+        <button class="secondary">Try a Demo</button>
+    </div>
   </section>
+
 
 
   <!--ABOUT-->
@@ -69,44 +73,56 @@
 
   <!-- Footer -->
   <footer>
-    <div class="top-footer">
-      <div class="footer-logo">
-        <div class="footer-logo-img">
-          <img src="images/veruslogo_pink.svg" alt="Verus Logo" class="footer-logo-img">
+    <div class="container">
+      <div class="top-footer">
+        <div class="footer-column">
+          <div class="footer-logo">
+            <img src="images/veruslogo_pink.svg" alt="Verus Logo" class="footer-logo-img">
+            <div class="footer-logo-text">
+              <p>THE FUTURE OF</p>
+              <p>LIVE MUSIC IS HERE</p>
+            </div>
+          </div>
         </div>
-        <div class="footer-logo-text">
-          <p>THE FUTURE OF</p>
-          <p>LIVE MUSIC IS HERE</p>
-        </div>
-      </div>
-      <div class="footer-column">
-        <h5>Useful Links</h5>
-        <p class="footer-item-text">Events<br>My Account</p>
-      </div>
-      <div class="footer-column">
-        <h5>Help</h5>
-        <p class="footer-item-text">Contact Us<br>FAQs</p>
-      </div>
-      <div class="footer-socials">
-          <img src="images/facebook.svg" alt="Verus Facebook Social Icon" class="icon">
-          <img src="images/instagram.svg" alt="Verus Instagram Social Icon" class="icon">
-          <img src="images/twitter.svg" alt="Verus Twitter Social Icono "class="icon">
-      </div>
-    </div>
 
-    <hr class="footer-line">
-    <div class="bottom-footer">
-      <p class="bottom-copyright">© Verus 2023. All rights reserved.</p>
-      <div class="footer-misc">
+        <div class="footer-column">
+        </div>
+
+        <div class="footer-column">
+          <h5>Useful Links</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="footer-links">Events</a></li>
+            <li class="nav-item mb-2"><a href="#" class="footer-links">My Account</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h5>Help</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="footer-links">Contact</a></li>
+            <li class="nav-item mb-2"><a href="#" class="footer-links">FAQs</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <div class="footer-socials">
+            <img src="images/facebook.svg" alt="Verus Facebook Social Icon" class="icon">
+            <img src="images/instagram.svg" alt="Verus Instagram Social Icon" class="icon">
+            <img src="images/twitter.svg" alt="Verus Twitter Social Icono " class="icon">
+          </div>
+        </div>
+      </div>
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p class="bottom-copyright">© Verus 2023. All rights reserved.</p>
         <ul>
           <li><a href="#" class="utility-links">Privacy</a></li>
           <li><a href="#" class="utility-links">Legal</a></li>
           <li><a href="#" class="utility-links">English (US)</a></li>
         </ul>
       </div>
-    </div>
   </footer>
 </body>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
