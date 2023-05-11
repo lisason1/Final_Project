@@ -20,7 +20,7 @@ body {
 
 h1 {
     font-family: 'Audiowide';
-    font-size: 22px;
+    font-size: 56px;
 }
 
 h2 {
@@ -164,6 +164,36 @@ nav ul li a:hover::after {
     background-color: #e23d39;
 }
 
+/* FEATURES */
+.features {
+    background-color: #1D202B;
+    height: auto;
+    text-align: center;
+}
+
+.features-text {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.features-text h1 {
+    color: #D41D86;
+}
+
+.features-row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.features-card {
+    width: 300px;
+}
+
+.features-icon {
+    padding-bottom: 20px;
+}
+
 /* NEWSLETTER */
 .newsletter-card {
     height: auto;
@@ -201,6 +231,17 @@ nav ul li a:hover::after {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+/* FAQS */
+
+.accordian-item {
+    padding-bottom: 20px;
+}
+
+.accordian {
+    --accordion-color: #1D202B;
+    --accordion-bg: #1D202B;
 }
 
 /* FOOTER */
