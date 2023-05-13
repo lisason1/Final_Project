@@ -23,7 +23,7 @@ body {
 
 h1 {
     font-family: 'Audiowide';
-    font-size: 56px;
+    font-size: 48px;
     color: #D41D86;
 }
 
@@ -31,6 +31,19 @@ h2 {
     font-family: 'Montserrat';
     font-size: 22px;
     color: #F6F6F6;
+}
+
+h3 {
+    font-family: 'Audiowide';
+    font-size: 28px;
+    color: #E98EC2;
+}
+
+h4 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    color: #E98EC2;
 }
 
 .logo {
