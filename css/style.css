@@ -14,7 +14,7 @@
 
 body {
     font-family: 'Montserrat';
-    background: #191C25;
+    background:linear-gradient(#160D21, #081631);
     color: #F6F6F6;
 }
 
@@ -29,8 +29,11 @@ h2 {
 }
 
 .logo {
-    width: 60.5px;
-    height: 50px;
+    width: 90px;
+    height: 90px;
+    margin-left: -50px;
+
+
 }
 
 #header {
@@ -43,7 +46,9 @@ h2 {
 }
 
 .container {
-    padding: 20px 10%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 100px;
 }
 
 
@@ -55,16 +60,27 @@ nav {
     margin-bottom: 0;
 }
 
+nav ul {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+
+}
+
 nav ul li {
     display: inline-block;
     list-style: none;
-    margin: 5px 20px;
+    margin: 20px 25px;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     position: relative;
 }
 
@@ -86,15 +102,13 @@ nav ul li a:hover::after {
 
 /* Hero */
 
-.hero-image {
-    background-image: url('../../images/hero.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    overflow: hidden;
-    min-height: 800px;
+.backgroundimage{
+    position: absolute;
+    top: 259px;
+    left: 800px;
+
 }
+
 
 
 .hero {
@@ -107,19 +121,24 @@ nav ul li a:hover::after {
     overflow: hidden;
 }
 
-.hero-content {
-    text-align: center;
+.herotext {
+    text-align: left;
     color: #fff;
-    padding: 20px 10%;
+    padding-top: 100px;
+    padding-right: 110px;
+    padding-bottom: 200px;
+    padding-left: 50px;
+    line-height: .5;
 }
 
 
-.hero-content h1 {
+.herotext h1 {
     font-size: 80px;
     margin-bottom: 20px;
+    line-height: 1;
 }
 
-.hero-content p {
+.herotext p {
     font-size: 24px;
     margin-bottom: 20px;
     color: #E268AE;
@@ -128,7 +147,7 @@ nav ul li a:hover::after {
 .primary {
     background-color: #4C5088;
     border: none;
-    border-radius: 30px;
+    border-radius: 10px;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -137,9 +156,10 @@ nav ul li a:hover::after {
     font-size: 16px;
 }
 
+
 .secondary {
     background-color: transparent;
-    border-radius: 30px;
+    border-radius: 10px;
     border: 2px solid white;
     color: white;
     padding: 15px 32px;
