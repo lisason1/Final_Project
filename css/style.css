@@ -222,7 +222,7 @@ nav ul li a:hover::after {
 }
 
 .features-content {
-    padding: 50px;
+    padding: 70px 40px;
 }
 
 .features-icon {
@@ -232,8 +232,8 @@ nav ul li a:hover::after {
 .features-card {
     justify-content: center;
     text-align: center;
-    width: auto;
-    height: auto;
+    width: 280px;
+    height: 280px;
     border: 2px solid #D41D86;
     border-radius: 20px;
     background-image: radial-gradient(ellipse farthest-corner at 45px 45px, rgba(226, 104, 174, 0.25) 0%, rgba(212, 29, 134, 0.1));
@@ -254,7 +254,7 @@ nav ul li a:hover::after {
 .price-card {
     padding: 100px;
     height: auto;
-    width: auto;
+    width:  580px;
     text-align: center;
     border: 2px solid #f6f6f6;
     border-radius: 20px;
