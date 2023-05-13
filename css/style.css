@@ -40,6 +40,12 @@ h3 {
 }
 
 h4 {
+    font-family: 'Audiowide';
+    font-size: 28px;
+    color: #f6f6f6;
+}
+
+h5 {
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 20px;
@@ -64,7 +70,7 @@ h4 {
 }
 
 .container {
-    
+
     padding-bottom: 10px;
     padding-left: 162px;
 }
@@ -81,7 +87,8 @@ nav {
     width: 1512px;
     height: 159px;
     left: calc(50% - 1512px/2);
-    top: 0px;}
+    top: 0px;
+}
 
 nav ul {
     display: flex;
@@ -125,7 +132,7 @@ nav ul li a:hover::after {
 
 /* Hero */
 
-.backgroundimage{
+.backgroundimage {
     position: absolute;
     width: 1025px;
     height: 585px;
@@ -150,7 +157,8 @@ nav ul li a:hover::after {
     width: 856px;
     height: 360.5px;
     left: calc(50% - 856px/2 - 186px);
-    top: 256px;}
+    top: 256px;
+}
 
 
 .herotext h1 {
@@ -206,84 +214,36 @@ nav ul li a:hover::after {
 }
 
 /* FEATURES */
-.features {
-    background-color: #1D202B;
-    height: auto;
+
+
+/* PRICE */
+
+.price-title {
     text-align: center;
+    padding-bottom: 80px;
 }
-
-.features-text {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.features-text h1 {
-    color: #D41D86;
-}
-
-.features-row {
+.price-flex {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 40px;
 }
 
-.features-card {
-    width: 300px;
-}
-
-.features-icon {
-    padding-bottom: 20px;
-}
-
-/* NEWSLETTER */
-.newsletter-card {
-    height: auto;
-    border: 2px solid #D41D86;
-    border-radius: 30px;
-    background-image: radial-gradient(ellipse farthest-corner at 45px 45px, rgba(226, 104, 174, 0.4) 0%, rgba(212, 29, 134, 0.2));
-}
-
-.newsletter-content {
-    padding: 50px;
-}
-
-.newsletter-content h1 {
-    font-size: 56px;
-    color: #D41D86;
-}
-
-.newsletter-content p {
-    font-size: 24px;
-    padding-bottom: 20px;
-}
-
-.newsletter-inputs {
-    display: flex;
-}
-
-.button-submit {
-    background-image: linear-gradient(45deg, rgba(212.00000256299973, 29.000000171363354, 134.00000721216202, 1) 0%, rgba(233.00000131130219, 142.00000673532486, 194.00000363588333, 1) 100%);
-    border: none;
-    border-radius: 10px;
-    margin-left: 20px;
-    color: white;
-    padding: 15px 32px;
+.price-card {
+    padding: 100px;
+    width: 560px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    height: auto;
+    border: 2px solid #f6f6f6;
+    border-radius: 20px;
+    background-image: radial-gradient(ellipse farthest-corner at 45px 45px, rgba(246, 246, 246, 0.25) 0%, rgba(246, 246, 246, 0.1));
+}
+
+
+.price-line {
+    color: #E268AE
 }
 
 /* FAQS */
 
-.accordian-item {
-    padding-bottom: 20px;
-}
-
-.accordian {
-    --accordion-color: #1D202B;
-    --accordion-bg: #1D202B;
-}
 
 /* FOOTER */
 .row {
