@@ -17,8 +17,6 @@ body {
     background: linear-gradient(90deg, #180D21 0%, #081631 101.45%);
     color: #F6F6F6;
     position: relative;
-    width: 1512px;
-    height: 7832px;
 }
 
 h1 {
@@ -46,6 +44,12 @@ h4 {
 }
 
 h5 {
+    font-family: 'Audiowide';
+    font-size: 24px;
+    color: #f6f6f6;
+}
+
+h6 {
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 20px;
@@ -70,9 +74,7 @@ h5 {
 }
 
 .container {
-
-    padding-bottom: 10px;
-    padding-left: 162px;
+    padding: 40px 65px;
 }
 
 
@@ -214,14 +216,36 @@ nav ul li a:hover::after {
 }
 
 /* FEATURES */
+.features-flex {
+    display: flex;
+    justify-content: space-between;
+}
 
+.features-content {
+    padding: 50px;
+}
+
+.features-icon {
+    padding-bottom: 20px;
+}
+
+.features-card {
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    height: auto;
+    border: 2px solid #D41D86;
+    border-radius: 20px;
+    background-image: radial-gradient(ellipse farthest-corner at 45px 45px, rgba(226, 104, 174, 0.25) 0%, rgba(212, 29, 134, 0.1));
+}
 
 /* PRICE */
 
 .price-title {
     text-align: center;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
 }
+
 .price-flex {
     display: flex;
     justify-content: space-between;
@@ -229,9 +253,9 @@ nav ul li a:hover::after {
 
 .price-card {
     padding: 100px;
-    width: 560px;
-    text-align: center;
     height: auto;
+    width: auto;
+    text-align: center;
     border: 2px solid #f6f6f6;
     border-radius: 20px;
     background-image: radial-gradient(ellipse farthest-corner at 45px 45px, rgba(246, 246, 246, 0.25) 0%, rgba(246, 246, 246, 0.1));
