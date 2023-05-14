@@ -200,6 +200,44 @@ video[poster] {
     --si-carousel-nav-btn-disabled-color: rgba(255, 255, 255, .5);
 }
 
+.container-events-text {
+    display: flex;
+
+}
+
+.concert-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+}
+
+.date {
+    display: flex;
+    justify-content: center;
+}
+
+.concert-cards .box {
+    width: 380px;
+    height: 400px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    margin-right: 20px;
+    border: 2px solid #E98EC2;
+    border-radius: 20px;
+    background-image: radial-gradient(ellipse farthest-corner at 45px 45px, rgba(246, 246, 246, 0.25) 0%, rgba(246, 246, 246, 0.1));
+    background: #1F222E;
+}
+
+.concert-card-alt .name {
+    display: flex;
+    justify-content: center;
+}
+
 
 
 /* FEATURES */
