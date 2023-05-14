@@ -13,29 +13,46 @@
 
 <body>
   <!--HEADER/NAVIGATIO/HERO-->
-  <div id="header">
-    <nav>
-      <img src="images/veruslogo_pink.svg" class="logo">
-      <ul>
-        <li style="float:right"><a class="active" href="#Events">Events</a></li>
-        <li style="float:right"><a class="active" href="#About">About</a></li>
-        <li style="float:right"><a class="active" href="#Log in">Log in</a></li>
-        <li style="float:right"><a class="active" href="#Sign Up">Sign Up</a></li>
+  <nav class="navbar container">
+    <a href="#"><img src="images/veruslogo_pink.svg" class="logo"></a>
+    <label for="toggler"><i class="ri-menu-line"></i></label>
+    <div class="menu">
+      <ul class="list">
+        <li><a href="#">Events</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Log In</a></li>
+        <li><a href="#">Sign Up</a></li>
       </ul>
-    </nav>
-  </div>
+    </div>
+  </nav>
 
   <!--HERO-->
-  <img src="images/vrhero.png" class="backgroundimage">
+
   <section class="hero">
-    <div class="container herotext">
-      <h1>EXPERIENCE THE</h1>
-      <h1>FUTURE OF MUSIC</h1>
-      <p>Immerse into Verus virtual reality music experiences</p>
-      <p>at the comfort and safety of your home.</p>
-      <button class="square-button primary">Learn More</button>
-      <button class="square-button secondary">Try a Demo</button>
+    <div class="container">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="images/man.png" class="d-block mx-lg-auto img-fluid" alt="Person Using Verus" width="700"
+            height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3">EXPERIENCE THE FUTURE OF MUSIC</h1>
+          <p class="lead">Immerse into Verus virtual reality music experiences from anywhere.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn primary">Learn More</button>
+            <button type="button" class="btn secondary">Try a Demo</button>
+          </div>
+        </div>
+      </div>
+      </div>
     </div>
+    <div class="vr-row">
+      <div class="vr-logos">
+        <img src="images/verus.svg" alt="Verus Logo" class="vr-icon">
+        <img src="images/metaquest.svg" alt="MetaQuest Icon" class="vr-icon">
+        <img src="images/vive.svg" alt="Vive Icon" class="vr-icon">
+        <img src="images/playstation.svg" alt="Playstation Icon" class="vr-icon">
+      </div>
   </section>
 
 
@@ -56,25 +73,25 @@
   <section id="features">
     <div class="container">
       <div class="features-flex">
-        <div class="accessible features-card">
+        <div class="features-card">
           <div class="features-content">
             <img src="images/accessible.svg" alt="Accessible Icon" class="features-icon">
             <h5 class="features-name">ACCCESSIBLE</h5>
           </div>
         </div>
-        <div class="safe features-card">
+        <div class="features-card">
           <div class="features-content">
             <img src="images/safe.svg" alt="Accessible Icon" class="features-icon">
             <h5 class="features-name">SAFE</h5>
           </div>
         </div>
-        <div class="social features-card">
+        <div class="features-card">
           <div class="features-content">
             <img src="images/social.svg" alt="Accessible Icon" class="features-icon">
             <h5 class="features-name">SOCIAL</h5>
           </div>
         </div>
-        <div class="live features-card">
+        <div class="features-card">
           <div class="features-content">
             <img src="images/live.svg" alt="Accessible Icon" class="features-icon">
             <h5 class="features-name">LIVE</h5>
@@ -101,7 +118,7 @@
           <br>
           <br>
           <br>
-          <button class="square-button primary">Get Started</button>
+          <button class="btn primary">Get Started</button>
         </div>
         <div class="pricing-premium price-card">
           <h3>PREMIUM</h3>
@@ -111,7 +128,7 @@
           <p>Connect with friends in Verus</p>
           <p>Ability to replay past events</p>
           <br>
-          <button class="square-button primary">Get Started</button>
+          <button class="btn primary">Get Started</button>
         </div>
       </div>
     </div>
@@ -120,11 +137,30 @@
   <!--REVIEWS-->
   <section id="reviews">
     <div class="container">
-      <div class="works-text">
+      <div class="reviews-text">
         <h6>EVENT REVIEWS</h6>
         <h1>SEE WHAT PEOPLE ARE SAYING</h1>
       </div>
-    </div>
+      <div class="features-flex">
+        <div class="reviews-card">
+          <div class="reviews-content">
+            <img src="images/accessible.svg" alt="Accessible Icon" class="features-icon">
+            <h5 class="features-name">GRACE</h5>
+          </div>
+        </div>
+        <div class="reviews-card">
+          <div class="reviews-content">
+            <img src="images/safe.svg" alt="Accessible Icon" class="features-icon">
+            <h5 class="features-name">PETER</h5>
+          </div>
+        </div>
+        <div class="reviews-card">
+          <div class="reviews-content">
+            <img src="images/social.svg" alt="Accessible Icon" class="features-icon">
+            <h5 class="features-name">ELAINE</h5>
+          </div>
+        </div>
+      </div>
   </section>
 
   <!--FAQS-->
@@ -172,7 +208,7 @@
           <div class="footer-socials">
             <img src="images/facebook.svg" alt="Verus Facebook Social Icon" class="icon">
             <img src="images/instagram.svg" alt="Verus Instagram Social Icon" class="icon">
-            <img src="images/twitter.svg" alt="Verus Twitter Social Icono " class="icon">
+            <img src="images/twitter.svg" alt="Verus Twitter Social Icon" class="icon">
           </div>
         </div>
       </div>
