@@ -8,347 +8,383 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-
-
-
 <body>
-  <!--HEADER/NAVIGATIO/HERO-->
-  <nav class="navbar container">
-    <a href="#"><img src="images/veruslogo_pink.svg" class="logo"></a>
-    <label for="toggler"><i class="ri-menu-line"></i></label>
-    <div class="menu">
-      <ul class="list">
-        <li><a href="#">Events</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Log In</a></li>
-        <li><a href="#">Sign Up</a></li>
-      </ul>
-    </div>
-  </nav>
 
-  <!--HERO-->
-
-  <section class="hero">
-    <div class="container">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
-          <img src="images/man.png" class="d-block mx-lg-auto img-fluid" alt="Person Using Verus" width="700"
-            height="500" loading="lazy">
-        </div>
-        <div class="col-lg-6">
-          <h1 class="display-5 fw-bold lh-1 mb-3">EXPERIENCE THE FUTURE OF MUSIC</h1>
-          <p class="lead">Immerse into Verus virtual reality music experiences from anywhere.</p>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" class="btn primary">Learn More</button>
+  <!-- HEADER/NAV/HERO -->
+  <section id="hero">
+    <video loop muted autoplay playsinline poster src="images/hero-videobg.mov" class="background-video">
+      <source src="images/hero-videobg.mov" type="video/mov">
+    </video>
+    <div class="background-video-content">
+      <header>
+        <nav class="navbar container">
+          <a href="#"><img src="images/veruslogo.svg" class="logo"></a>
+          <div class="menu">
+            <ul class="list">
+              <li><a href="#events">Events</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#">Log In</a></li>
+              <li><a href="#">Sign Up</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class="px-4 py-5 my-5 text-center">
+        <h1 class="display">EXPERIENCE THE FUTURE OF LIVE MUSIC</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Never miss a show and immerse into virtual reality music experiences from anywhere in the
+            world with
+            Verus.</p>
+          <div class="gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn primary gap 10">Learn More</button>
             <button type="button" class="btn secondary">Try a Demo</button>
           </div>
         </div>
       </div>
-      </div>
-    </div>
-    <div class="vr-row">
-      <div class="vr-logos">
-        <img src="images/verus.svg" alt="Verus Logo" class="vr-icon">
-        <img src="images/metaquest.svg" alt="MetaQuest Icon" class="vr-icon">
-        <img src="images/vive.svg" alt="Vive Icon" class="vr-icon">
-        <img src="images/playstation.svg" alt="Playstation Icon" class="vr-icon">
-      </div>
-  </section>
-
-
-  <!--EVENTS-->
-  +    <div class="container-events-text">
-    <h1>UPCOMING EVENTS</h1>
-  </div>
-  <div>
-    <a href="#" class="see-more-btn">See More</a>
-  </div>
-    <div class="concert-cards">
-      <div class="box">
-        <div class="title">
-          <div class="name-container"><span  class="name">EDC LAS VEGAS</span></div>
-          <div class="text-container"><span  class="date">May 19-22, 2023</span></div>
-        </div>
-        <div class="overlay">
-          <div class="concert-card-alt">
-            <div class="container">
-              <div class="name-container"><span  class="name">EDC LAS VEGAS</span></div>
-              <div class="text-container"><span  class="text">The largest globally renowned dance music festival in North America</span></div>
-            </div>
-            <div class="details-container">
-              <div class="location">
-                <div class="location-container">
-          <!--         <img src="" class="location"> -->
-          <!--         <div class="location-logo"></div>
-                  <div class="location-text"></div> -->
-                </div>
-                <div class="location-text-container"><span  class="location-text">Las Vegas Motor Speedway, Las Vegas, Nevada, USA</span></div>
-              </div>
-              <div class="date-container">
-                <div class="date-logo-container">
-          <!--         <img src="" class="calendar"> -->
-          <!--         <div class="ei159_94467_159_94438_159_94423"></div>
-                  <div class="ei159_94467_159_94438_159_94424"></div>
-                  <div class="ei159_94467_159_94438_159_94425"></div>
-                  <div class="ei159_94467_159_94438_159_94426"></div> -->
-                </div>
-                <div class="ei159_94467_159_94439"><span  class="ei159_94467_159_94439_159_94384">May 19-22, 2023</span></div>
-              </div>
-              <div class="time-text-container">
-                <div class="time-text-container-1">
-          <!--         <div class="ei159_94475_159_94444_159_94419"></div>
-                  <div class="ei159_94475_159_94444_159_94420"></div> -->
-                </div>
-                <div class="ei159_94475_159_94445"><span  class="ei159_94475_159_94445_159_94384">All Day</span></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="box">
-        <div class="title">
-          <div class="name-container"><span  class="name">ILLENIUM</span></div>
-          <div class="text-container"><span  class="date">May 27-28, 2023</span></div>
-        </div>
-        <div class="overlay">
-          <div class="concert-card-alt">
-            <div class="container">
-              <div class="name-container"><span  class="name">ILLENIUM</span></div>
-              <div class="text-container"><span  class="text">Denver-based DJ and producer with a sentimental melodic take on dubstep and trap</span></div>
-            </div>
-            <div class="details-container">
-              <div class="location">
-                <div class="location-container">
-          <!--         <img src="" class="location"> -->
-          <!--         <div class="location-logo"></div>
-                  <div class="location-text"></div> -->
-                </div>
-                <div class="location-text-container"><span  class="location-text">The Gorge Amphitheater, Quincy, Washington, USA</span></div>
-              </div>
-              <div class="date-container">
-                <div class="date-logo-container">
-          <!--         <img src="" class="calendar"> -->
-          <!--         <div class="ei159_94467_159_94438_159_94423"></div>
-                  <div class="ei159_94467_159_94438_159_94424"></div>
-                  <div class="ei159_94467_159_94438_159_94425"></div>
-                  <div class="ei159_94467_159_94438_159_94426"></div> -->
-                </div>
-                <div class="ei159_94467_159_94439"><span  class="ei159_94467_159_94439_159_94384">May 27-28, 2023</span></div>
-              </div>
-              <div class="time-text-container">
-                <div class="time-text-container-1">
-          <!--         <div class="ei159_94475_159_94444_159_94419"></div>
-                  <div class="ei159_94475_159_94444_159_94420"></div> -->
-                </div>
-                <div class="ei159_94475_159_94445"><span  class="ei159_94475_159_94445_159_94384">7 PM PST</span></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="box">
-        <div class="title">
-          <div class="name-container"><span  class="name">TAYLOR SWIFT</span></div>
-          <div class="text-container"><span  class="date">May 27-28, 2023</span></div>
-        </div>
-        <div class="overlay">
-          <div class="concert-card-alt">
-            <div class="container">
-              <div class="name-container"><span  class="name">TAYLOR SWIFT</span></div>
-              <div class="text-container"><span  class="text">American singer-songwriter widely recognized for her genre-spanning discography</span></div>
-            </div>
-            <div class="details-container">
-              <div class="location">
-                <div class="location-container">
-          <!--         <img src="" class="location"> -->
-          <!--         <div class="location-logo"></div>
-                  <div class="location-text"></div> -->
-                </div>
-                <div class="location-text-container"><span  class="location-text">Ford Field, Detroit, Michigan, USA</span></div>
-              </div>
-              <div class="date-container">
-                <div class="date-logo-container">
-          <!--         <img src="" class="calendar"> -->
-          <!--         <div class="ei159_94467_159_94438_159_94423"></div>
-                  <div class="ei159_94467_159_94438_159_94424"></div>
-                  <div class="ei159_94467_159_94438_159_94425"></div>
-                  <div class="ei159_94467_159_94438_159_94426"></div> -->
-                </div>
-                <div class="ei159_94467_159_94439"><span  class="ei159_94467_159_94439_159_94384">June 10, 2023</span></div>
-              </div>
-              <div class="time-text-container">
-                <div class="time-text-container-1">
-          <!--         <div class="ei159_94475_159_94444_159_94419"></div>
-                  <div class="ei159_94475_159_94444_159_94420"></div> -->
-                </div>
-                <div class="ei159_94475_159_94445"><span  class="ei159_94475_159_94445_159_94384">6:30 PM EST</span></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  
-</section>
-
-
-  <!--ABOUT-->
-  <section id="about">
-
-  </section>
-
-  <!--FEATURES-->
-  <section id="features">
-    <div class="container">
-      <div class="features-flex">
-        <div class="features-card">
-          <div class="features-content">
-            <img src="images/accessible.svg" alt="Accessible Icon" class="features-icon">
-            <h5 class="features-name">ACCCESSIBLE</h5>
-          </div>
-        </div>
-        <div class="features-card">
-          <div class="features-content">
-            <img src="images/safe.svg" alt="Accessible Icon" class="features-icon">
-            <h5 class="features-name">SAFE</h5>
-          </div>
-        </div>
-        <div class="features-card">
-          <div class="features-content">
-            <img src="images/social.svg" alt="Accessible Icon" class="features-icon">
-            <h5 class="features-name">SOCIAL</h5>
-          </div>
-        </div>
-        <div class="features-card">
-          <div class="features-content">
-            <img src="images/live.svg" alt="Accessible Icon" class="features-icon">
-            <h5 class="features-name">LIVE</h5>
-          </div>
+      <div class="vr-row">
+        <div class="vr-logos">
+          <img src="images/verus.svg" alt="Verus Logo" class="vr-icon">
+          <img src="images/metaquest.svg" alt="MetaQuest Icon" class="vr-icon">
+          <img src="images/vive.svg" alt="Vive Icon" class="vr-icon">
+          <img src="images/playstation.svg" alt="Playstation Icon" class="vr-icon">
         </div>
       </div>
     </div>
   </section>
 
-  <!--PRICING-->
-  <section id="pricing">
-    <div class="container">
-      <div class="price-title">
-        <h1>PRICING</h1>
-        <p>Become a Verus member and unlock more benefits.</p>
+  <!-- UPCOMING EVENTS -->
+  <section id="events">
+    <div class="container py-2 py-md-4 py-lg-5">
+      <h1 class="text-left pb-4 mb-1 mb-lg-3">UPCOMING EVENTS</h1>
+      <div class="position-relative px-xl-5">
+
+        <!-- Slider prev/next buttons -->
+        <button type="button" id="prev-news"
+          class="btn btn-prev btn-icon btn-sm position-absolute top-50 start-0 translate-middle-y d-none d-xl-inline-flex"
+          tabindex="0" aria-label="Previous slide" aria-controls="swiper-wrapper-3a1c69fcc6a73c12">
+          <i class="bx bx-chevron-left"></i>
+        </button>
+        <button type="button" id="next-news"
+          class="btn btn-next btn-icon btn-sm position-absolute top-50 end-0 translate-middle-y d-none d-xl-inline-flex"
+          tabindex="0" aria-label="Next slide" aria-controls="swiper-wrapper-3a1c69fcc6a73c12">
+          <i class="bx bx-chevron-right"></i>
+        </button>
+
+        <!-- Pagination (bullets) -->
+        <div
+          class="swiper-pagination position-relative pt-2 pt-sm-3 mt-4 swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+          <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button"
+            aria-label="Go to slide 1" aria-current="true"></span><span class="swiper-pagination-bullet" tabindex="0"
+            role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0"
+            role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0"
+            role="button" aria-label="Go to slide 4"></span></div>
+        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
       </div>
-      <div class="price-flex">
-        <div class="pricing-standard price-card">
-          <h3>STANDARD</h3>
-          <h4>FREE</h4>
-          <hr class="price-line">
-          <p>Free access to all Verus events</p>
-          <p>Connect with friends in Verus</p>
-          <br>
-          <br>
-          <br>
-          <button class="btn primary">Get Started</button>
+    </div>
+    </div>
+    <!-- ABOUT VERUS -->
+    <section id="about">
+      <div class="container py-5">
+        <div class="row flex-lg-row align-items-center g-5 py-">
+          <div class="col">
+            <img src="images/about.jpeg" class="d-block mx-lg-auto img-fluid" alt="About Verus" width="500" height="500"
+              loading="lazy">
+          </div>
+          <div class="col-lg-6 cta-title">
+            <h6>ABOUT VERUS</h6>
+            <h1>MUSIC FOR ALL</h1>
+            <p>Verus specializes in virtual reality to revolutionize the concert-going experience with advanced,
+              safe, and
+              immersive audiovisual technology. Connect with others in live Verus experiences using existing virtual
+              reality hardware, or receive a set from Verus.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn primary btn-lg me-md-2">Learn More</button>
+            </div>
+          </div>
         </div>
-        <div class="pricing-premium price-card">
-          <h3>PREMIUM</h3>
-          <h4>$9.99/MONTH</h4>
-          <hr class="price-line">
-          <p>Free access to all Verus events</p>
-          <p>Connect with friends in Verus</p>
-          <p>Ability to replay past events</p>
-          <br>
-          <button class="btn primary">Get Started</button>
+        <!-- FEATURES -->
+        <div class="row row-cols-1 row-cols-lg-4 align-items-stretch g-4 px-5 py-5">
+          <div class="col">
+            <div class="features-card overflow-hidden">
+              <div class="d-flex flex-column h-100 p-4">
+                <div class="features-content align-items-center">
+                  <img src="images/accessible.svg" alt="Accessible Icon" class="features-icon">
+                  <h5 class="features-name">ACCCESSIBLE</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="features-card overflow-hidden">
+              <div class="d-flex flex-column h-100 p-4">
+                <div class="features-content align-items-center">
+                  <img src="images/safe.svg" alt="Accessible Icon" class="features-icon">
+                  <h5 class="features-name">SAFE</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="features-card overflow-hidden">
+              <div class="d-flex flex-column h-100 p-4">
+                <div class="features-content align-items-center">
+                  <img src="images/social.svg" alt="Accessible Icon" class="features-icon">
+                  <h5 class="features-name">SOCIAL</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="features-card overflow-hidden">
+              <div class="d-flex flex-column h-100 p-4">
+                <div class="features-content align-items-center">
+                  <img src="images/live.svg" alt="Accessible Icon" class="features-icon">
+                  <h5 class="features-name">LIVE</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <!-- <section id="features">
+    <div class="row row-cols-1 row-cols-lg-4 align-items-stretch g-4 px-5 py-5">
+      <div class="col">
+        <div class="features-card overflow-hidden">
+          <div class="d-flex flex-column h-100 p-4">
+            <div class="features-content align-items-center">
+              <img src="images/accessible.svg" alt="Accessible Icon" class="features-icon">
+              <h5 class="features-name">ACCCESSIBLE</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="features-card overflow-hidden">
+          <div class="d-flex flex-column h-100 p-4">
+            <div class="features-content align-items-center">
+              <img src="images/safe.svg" alt="Accessible Icon" class="features-icon">
+              <h5 class="features-name">SAFE</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="features-card overflow-hidden">
+          <div class="d-flex flex-column h-100 p-4">
+            <div class="features-content align-items-center">
+              <img src="images/social.svg" alt="Accessible Icon" class="features-icon">
+              <h5 class="features-name">SOCIAL</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="features-card overflow-hidden">
+          <div class="d-flex flex-column h-100 p-4">
+            <div class="features-content align-items-center">
+              <img src="images/live.svg" alt="Accessible Icon" class="features-icon">
+              <h5 class="features-name">LIVE</h5>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
-  <!--REVIEWS-->
-  <section id="reviews">
-    <div class="container">
-      <div class="reviews-text">
+    <!-- PRICING -->
+    <section id="pricing" class="mb-5 py-5">
+      <div class="container my-xl-5 my-lg-4 pb-2 py-sm-3 py-md-4">
+        <div class="row my-2">
+          <div class="col-xl-4 col-lg-5">
+            <div class="mb-lg-0 mb-5 mx-lg-0 mx-auto align-items-center" style="max-width: 26rem;">
+              <h1 class="mb-4 pb-3">
+                PRICING</h1>
+              <p class="mb-4">Get the most of your Verus experience. Upgrade to a Premium Membership to unlock
+                premium
+                benefits.</span>
+            </div>
+          </div>
+          <div class="col-lg-7 offset-xl-1">
+            <div class="row row-cols-sm-2 row-cols-1 gy-4">
+              <div class="col">
+                <div class="pricing-card card-hover border-0 shadow position-relative overflow-hidden">
+                  <div class="d-flex flex-column h-100 p-4">
+                    <div class="pricing-content align-items-center p-4">
+                      <p class="cost">FREE</p>
+                      <h3>STANDARD</h3>
+                      <hr class="pricing-line">
+                      <p class="pricing-details">
+                        Free access to Verus events<br><br>
+                        Connect with Verus users<br><br>
+                        <br><br>
+                        <br>
+                      </p><br>
+                      <button type="button" class="w-100 btn primary">Get Started</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="pricing-card card-hover border-0 shadow position-relative overflow-hidden">
+                  <div class="d-flex flex-column h-100 p-4">
+                    <div class="pricing-content align-items-center p-4">
+                      <p class="cost">$9.99/MONTH</p>
+                      <h3>PREMIUM</h3>
+                      <hr class="pricing-line">
+                      <p class="pricing-details">
+                        Free access to Verus events<br><br>
+                        Connect with Verus users<br><br>
+                        Priorty customer support<br><br>
+                        Ability to replay past events
+                      </p><br>
+                      <button type="button" class="w-100 btn primary">Get Started</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section id="reviews">
+      <div class="reviews-title">
         <h6>EVENT REVIEWS</h6>
         <h1>SEE WHAT PEOPLE ARE SAYING</h1>
       </div>
-      <div class="features-flex">
-        <div class="reviews-card">
-          <div class="reviews-content">
-            <img src="images/accessible.svg" alt="Accessible Icon" class="features-icon">
-            <h5 class="features-name">GRACE</h5>
-          </div>
-        </div>
-        <div class="reviews-card">
-          <div class="reviews-content">
-            <img src="images/safe.svg" alt="Accessible Icon" class="features-icon">
-            <h5 class="features-name">PETER</h5>
-          </div>
-        </div>
-        <div class="reviews-card">
-          <div class="reviews-content">
-            <img src="images/social.svg" alt="Accessible Icon" class="features-icon">
-            <h5 class="features-name">ELAINE</h5>
-          </div>
-        </div>
-      </div>
-  </section>
-
-  <!--FAQS-->
-  <section id="FAQS">
-    <div class="container">
-      <div class="faqs-text">
-        <h1>FAQs</h1>
-        <p>Have a question? We got answers!</p>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <div class="top-footer">
-        <div class="footer-column">
-          <div class="footer-logo">
-            <img src="images/veruslogo_pink.svg" alt="Verus Logo" class="footer-logo-img">
-            <div class="footer-logo-text">
-              <p>THE FUTURE OF</p>
-              <p>LIVE MUSIC IS HERE</p>
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 px-5 py-5">
+        <div class="col">
+          <div class="features-card overflow-hidden">
+            <div class="d-flex flex-column p-4">
+              <p class="reviews-text">“I usually attend concerts in person, but Verus has blown away my expectations
+                for
+                virtual reality concerts. I was expecting avatars like other VR shows but this experience was
+                different
+                and so realistic! Definetly going to attend my next concerts with Verus."
+              <p class="reviews-name text-left">Grace, 27</p>
             </div>
           </div>
         </div>
-
-        <div class="footer-column">
-          <h5>Useful Links</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="footer-links">Events</a></li>
-            <li class="nav-item mb-2"><a href="#" class="footer-links">My Account</a></li>
-          </ul>
+        <div class="col">
+          <div class="features-card overflow-hidden">
+            <div class="d-flex flex-column p-4">
+              <p class="reviews-text">"Attending a concert in virtual reality with Verus was one of the
+                coolest experiences of my life. I couldn't believe how realistic it felt, and being able to interact
+                with other concert-goers made it feel just as real."
+              <p> </p>
+              <p> </p>
+              <p> </p>
+              <p> </p>
+              <p class="reviews-name text-left">Peter, 41</p>
+            </div>
+          </div>
         </div>
-
-        <div class="footer-column">
-          <h5>Help</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="footer-links">Contact</a></li>
-            <li class="nav-item mb-2"><a href="#" class="footer-links">FAQs</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-column">
-          <div class="footer-socials">
-            <img src="images/facebook.svg" alt="Verus Facebook Social Icon" class="icon">
-            <img src="images/instagram.svg" alt="Verus Instagram Social Icon" class="icon">
-            <img src="images/twitter.svg" alt="Verus Twitter Social Icon" class="icon">
+        <div class="col">
+          <div class="features-card overflow-hidden">
+            <div class="d-flex flex-column p-4">
+              <p class="reviews-text">“I was skeptical at first, but after trying this virtual
+                reality technology, I was blown away. The experience is truly immersive, and it
+                feels like you're really at the concert. I love the accessibility it provides.
+              <p> </p>
+              <p> </p>
+              <p> </p>
+              <p> </p>
+              <p class="reviews-name text-left">Elaine, 22</p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-        <p class="bottom-copyright">© Verus 2023. All rights reserved.</p>
-        <ul>
-          <li><a href="#" class="utility-links">Privacy</a></li>
-          <li><a href="#" class="utility-links">Legal</a></li>
-          <li><a href="#" class="utility-links">English (US)</a></li>
-        </ul>
+    </section>
+
+    <!-- FAQS -->
+    <section id="faqs">
+      <div class="container">
+        <div class="text-center mt-n2 mt-lg-0 mb-4 mb-lg-5 faqs-title">
+          <h1>FAQs</h1>
+          <p>Have a question? Verus has answers.</p>
+        </div>
+
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="cta">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col">
+            <img src="/images/event-edc.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="500"
+              height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6 cta-title">
+            <h6>TRY TODAY</h6>
+            <h1>ATTEND YOUR NEXT SHOW WITH VERUS</h1>
+            <p>Experience your next live music event in virtual reality and join the thousands of music lovers who
+              are already loving Verus.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn primary btn-lg px-4 me-md-2">Find an Event</button>
+            </div>
+          </div>
+        </div>
       </div>
-  </footer>
+    </section>
+
+    <!-- FOOTER -->
+    <section id="footer">
+      <div class="container">
+        <div class="top-footer">
+          <div class="container">
+            <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-4 align-items-stretch">
+              <div class="col mb-3">
+                <a href="/" class="d-flex align-items-center mb-3">
+                  <img src="images/veruslogo.svg" alt="Verus Logo" class="logo">
+                </a>
+              </div>
+              <div class="col mb-3">
+                <h5 class="footer-heading">Useful Links</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#events" class="p-0 footer-links">Events</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="p-0 footer-links">My Account</a></li>
+                </ul>
+              </div>
+
+              <div class="col mb-3">
+                <h5 class="footer-heading">Help</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#faqs" class="p-0 footer-links">FAQs</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="p-0 footer-links">Contact Us</a></li>
+                </ul>
+              </div>
+
+              <div class="col mb-3 justify-content-end list-unstyled d-flex">
+                <div class="footer-socials">
+                  <img src="images/facebook.svg" alt="Verus Facebook Social Icon" class="icon">
+                  <img src="images/instagram.svg" alt="Verus Instagram Social Icon" class="icon">
+                  <img src="images/twitter.svg" alt="Verus Twitter Social Icon" class="icon">
+                </div>
+              </div>
+
+            </footer>
+          </div>
+        </div>
+
+        <div class="bottom-footer">
+          <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+              <span class="bottom-copyright mb-3 mb-md-0">©2023 Verus. All Rights Reserved.</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+              <li><a href="#" class="utility-links">Privacy</a></li>
+              <li><a href="#" class="utility-links">Legal</a></li>
+              <li><a href="#" class="utility-links">English (US)</a></li>
+            </ul>
+        </div>
+        </footer>
+      </div>
+    </section>
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
