@@ -12,52 +12,50 @@
 
   <!-- HEADER/NAV/HERO -->
   <section id="hero">
-    <video loop muted autoplay playsinline poster src="images/hero-videobg.mov" class="background-video">
-      <source src="images/hero-videobg.mov" type="video/mov">
-    </video>
-    <div class="background-video-content">
-      <header>
-        <nav class="navbar container">
+    <header>
+      <div class="header">
+        <nav class="navigation">
           <a href="#"><img src="images/veruslogo.svg" class="logo"></a>
-          <div class="menu">
+          <div class="navbar-right">
             <ul class="list">
-              <li><a href="#events">Events</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#">Log In</a></li>
-              <li><a href="#">Sign Up</a></li>
+              <li><a href="#events">EVENTS</a></li>
+              <li><a href="#about">ABOUT</a></li>
+              <li><a href="#">LOG IN</a></li>
+              <li><a href="#">SIGN UP</a></li>
             </ul>
           </div>
         </nav>
-      </header>
-      <div class="px-4 py-5 my-5 text-center">
-        <h1 class="display">EXPERIENCE THE FUTURE OF LIVE MUSIC</h1>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">Never miss a show and immerse into virtual reality music experiences from anywhere in the
-            world with
-            Verus.</p>
-          <div class="gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn primary gap 10">Learn More</button>
-            <button type="button" class="btn secondary">Try a Demo</button>
+        <div class="video-container">
+          <video loop muted autoplay playsinline poster id="background-video" class="bg-video">
+            <source src="images/hero-videobg.mov" type="video/mp4">
+          </video>
+        </div>
+        <div class="hero-content text-center z-index-1">
+          <div class="col-lg-10 mx-auto">
+            <p class="lead">USE VERUS VIRTUAL REALITY TO</p>
+            <h1 class="display">EXPERIENCE THE FUTURE OF LIVE MUSIC</h1>
+            <div class="hero-button gap-4 d-flex mb-4 justify-content-center">
+              <button type="button" class="button-primary">Learn More</button>
+              <button type="button" class="button-secondary">Try a Demo</button>
+            </div>
+            <div class="arrow-down w-100 mt-auto">
+              <a data-scroll href="#full">
+                <div class="arrow"></div>
+              </a>
+            </div>
+            <div id="full"></div>
           </div>
         </div>
       </div>
-      <div class="vr-row">
-        <div class="vr-logos">
-          <img src="images/verus.svg" alt="Verus Logo" class="vr-icon">
-          <img src="images/metaquest.svg" alt="MetaQuest Icon" class="vr-icon">
-          <img src="images/vive.svg" alt="Vive Icon" class="vr-icon">
-          <img src="images/playstation.svg" alt="Playstation Icon" class="vr-icon">
-        </div>
-      </div>
-    </div>
+    </header>
   </section>
 
   <!-- UPCOMING EVENTS -->
-  <section class="pt-0 pt-md-5">
+  <section id="events" class="pt-0 pt-md-5">
     <div class="container">
       <div class="row mb-4">
         <div class="d-flex align-items-center justify-content-between mb-sm-4 mb-2 pb-2">
-          <h1 class="mb-0">UPCOMING EVENTS</h1><a class="btn tertiary ms-3" href="">See More</i></a>
+          <h1 class="mb-0">UPCOMING EVENTS</h1><a class="button-tertiary ms-3" href="">See More</i></a>
         </div>
       </div>
       <div class="row g-4">
@@ -70,11 +68,11 @@
                   <span class="badge">EDM</span>
                   <span class="badge">Festival</span>
                 </div>
+                <div class="w-100 mt-auto">
+                  <h4 class="card-title event-name">EDC LAS VEGAS</h4>
+                  <p class="event-date">May 19-22, 2023</p>
+                </div>
               </div>
-            </div>
-            <div class="card-body px-2">
-              <h4 class="card-title event-name">EDC LAS VEGAS</h4>
-              <p class="event-date">May 19-22, 2023</p>
             </div>
           </div>
         </div>
@@ -86,11 +84,11 @@
                 <div class="d-flex">
                   <span class="badge">EDM</span>
                 </div>
+                <div class="w-100 mt-auto">
+                  <h4 class="card-title event-name">ILLENIUM</h4>
+                  <p class="event-date">May 27-28, 2023</p>
+                </div>
               </div>
-            </div>
-            <div class="card-body px-2">
-              <h4 class="card-title event-name">ILLENIUM</h4>
-              <p class="event-date">May 27-28, 2023</p>
             </div>
           </div>
         </div>
@@ -102,11 +100,11 @@
                 <div class="d-flex">
                   <span class="badge">Pop</span>
                 </div>
+                <div class="w-100 mt-auto">
+                  <h4 class="card-title event-name">TAYLOR SWIFT</h4>
+                  <p class="event-date">June 10, 2023</p>
+                </div>
               </div>
-            </div>
-            <div class="card-body px-2">
-              <h4 class="card-title event-name">TAYLOR SWIFT</h4>
-              <p class="event-date">June 10, 2023</p>
             </div>
           </div>
         </div>
@@ -120,90 +118,48 @@
                   <span class="badge">Hip Pop</span>
                   <span class="badge">Festival</span>
                 </div>
+                <div class="w-100 mt-auto">
+                  <h4 class="card-title event-name">WATERBOMB</h4>
+                  <p class="event-date">June 23-25, 2023</p>
+                </div>
               </div>
-            </div>
-            <div class="card-body px-2">
-              <h4 class="card-title event-name">WATERBOMB</h4>
-              <p class="event-date">June 23-25, 2023</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    </div>
   </section>
 
   <!-- ABOUT VERUS -->
-
   <section id="about">
     <div class="container py-5">
-      <div class="row flex-lg-row align-items-center g-5 py-">
+      <div class="row flex-lg-row align-items-center g-5 py-5">
         <div class="col">
-          <img src="images/about.jpeg" class="d-block mx-lg-auto img-fluid" alt="About Verus" width="500" height="500"
+          <img src="images/about.jpeg" class="d-block mx-lg-auto about-img" alt="About Verus" width="500" height="500"
             loading="lazy">
         </div>
         <div class="col-lg-6 cta-title">
           <h6>ABOUT VERUS</h6>
           <h1>MUSIC FOR ALL</h1>
-          <p>Verus specializes in virtual reality to revolutionize the concert-going experience with advanced,
-            safe, and
-            immersive audiovisual technology. Connect with others in live Verus experiences using existing virtual
+          <p>Verus specializes in virtual reality technology to revolutionize the concert-going experience with advanced,
+            safe, and immersive audiovisual technology. Connect with others in live Verus experiences using existing virtual
             reality hardware, or receive a set from Verus.</p>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" class="btn primary btn-lg me-md-2">Learn More</button>
-          </div>
-        </div>
-      </div>
-      <!-- FEATURES -->
-      <div class="row row-cols-1 row-cols-lg-4 align-items-stretch g-4 px-5 py-5">
-        <div class="col">
-          <div class="features-card overflow-hidden">
-            <div class="d-flex flex-column h-100 p-4">
-              <div class="features-content align-items-center">
-                <img src="images/accessible.svg" alt="Accessible Icon" class="features-icon">
-                <h5 class="features-name">ACCCESSIBLE</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="features-card overflow-hidden">
-            <div class="d-flex flex-column h-100 p-4">
-              <div class="features-content align-items-center">
-                <img src="images/safe.svg" alt="Accessible Icon" class="features-icon">
-                <h5 class="features-name">SAFE</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="features-card overflow-hidden">
-            <div class="d-flex flex-column h-100 p-4">
-              <div class="features-content align-items-center">
-                <img src="images/social.svg" alt="Accessible Icon" class="features-icon">
-                <h5 class="features-name">SOCIAL</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="features-card overflow-hidden">
-            <div class="d-flex flex-column h-100 p-4">
-              <div class="features-content align-items-center">
-                <img src="images/live.svg" alt="Accessible Icon" class="features-icon">
-                <h5 class="features-name">LIVE</h5>
-              </div>
-            </div>
+          <div class="about-button d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="button-primary btn-lg me-md-2">Learn More</button>
           </div>
         </div>
       </div>
   </section>
 
   <!-- FEATURES -->
-  <!-- <section id="features">
+  <section id="features">
+    <div class="features-title">
+      <h6>WHY US</h6>
+      <h1>VERUS FEATURES</h1>
+    </div>
     <div class="row row-cols-1 row-cols-lg-4 align-items-stretch g-4 px-5 py-5">
       <div class="col">
-        <div class="features-card overflow-hidden">
+        <div class="features-card position-relative overflow-hidden">
           <div class="d-flex flex-column h-100 p-4">
             <div class="features-content align-items-center">
               <img src="images/accessible.svg" alt="Accessible Icon" class="features-icon">
@@ -213,7 +169,7 @@
         </div>
       </div>
       <div class="col">
-        <div class="features-card overflow-hidden">
+        <div class="features-card position-relative overflow-hidden">
           <div class="d-flex flex-column h-100 p-4">
             <div class="features-content align-items-center">
               <img src="images/safe.svg" alt="Accessible Icon" class="features-icon">
@@ -223,7 +179,7 @@
         </div>
       </div>
       <div class="col">
-        <div class="features-card overflow-hidden">
+        <div class="features-card position-relative overflow-hidden">
           <div class="d-flex flex-column h-100 p-4">
             <div class="features-content align-items-center">
               <img src="images/social.svg" alt="Accessible Icon" class="features-icon">
@@ -233,7 +189,7 @@
         </div>
       </div>
       <div class="col">
-        <div class="features-card overflow-hidden">
+        <div class="features-card position-relative overflow-hidden">
           <div class="d-flex flex-column h-100 p-4">
             <div class="features-content align-items-center">
               <img src="images/live.svg" alt="Accessible Icon" class="features-icon">
@@ -243,7 +199,7 @@
         </div>
       </div>
     </div>
-  </section> -->
+  </section>
 
   <!-- PRICING -->
   <section id="pricing" class="mb-5 py-5">
@@ -253,9 +209,8 @@
           <div class="mb-lg-0 mb-5 mx-lg-0 mx-auto align-items-center" style="max-width: 26rem;">
             <h1 class="mb-4 pb-3">
               PRICING</h1>
-            <p class="mb-4">Get the most of your Verus experience. Upgrade to a Premium Membership to unlock
-              premium
-              benefits.</span>
+            <p class="mb-4">Get the most out of your Verus experience. Upgrade to a Premium Membership to unlock
+              Verus Replay.</span>
           </div>
         </div>
         <div class="col-lg-7 offset-xl-1">
@@ -273,7 +228,7 @@
                       <br><br>
                       <br>
                     </p><br>
-                    <button type="button" class="w-100 btn primary">Get Started</button>
+                    <button type="button" class="w-100 button-primary">Get Started</button>
                   </div>
                 </div>
               </div>
@@ -291,7 +246,7 @@
                       Priorty customer support<br><br>
                       Ability to replay past events
                     </p><br>
-                    <button type="button" class="w-100 btn primary">Get Started</button>
+                    <button type="button" class="w-100 button-primary">Get Started</button>
                   </div>
                 </div>
               </div>
@@ -312,11 +267,11 @@
         <div class="features-card overflow-hidden">
           <div class="d-flex flex-column p-4">
             <p class="reviews-text">“I usually attend concerts in person, but Verus has blown away my expectations
-              for
-              virtual reality concerts. I was expecting avatars like other VR shows but this experience was
-              different
-              and so realistic! Definetly going to attend my next concerts with Verus."
-            <p class="reviews-name text-left">Grace, 27</p>
+              for virtual reality concerts. I was expecting avatars like other VR shows but this experience was
+              different and so realistic!"
+              <div class="w-100 mt-auto">
+                <p class="reviews-name">Grace, 27</p>
+              </div>
           </div>
         </div>
       </div>
@@ -326,11 +281,9 @@
             <p class="reviews-text">"Attending a concert in virtual reality with Verus was one of the
               coolest experiences of my life. I couldn't believe how realistic it felt, and being able to interact
               with other concert-goers made it feel just as real."
-            <p> </p>
-            <p> </p>
-            <p> </p>
-            <p> </p>
-            <p class="reviews-name text-left">Peter, 41</p>
+            <div class="w-100 mt-auto">
+              <p class="reviews-name">Peter, 41</p>
+            </div>
           </div>
         </div>
       </div>
@@ -340,11 +293,9 @@
             <p class="reviews-text">“I was skeptical at first, but after trying this virtual
               reality technology, I was blown away. The experience is truly immersive, and it
               feels like you're really at the concert. I love the accessibility it provides.
-            <p> </p>
-            <p> </p>
-            <p> </p>
-            <p> </p>
-            <p class="reviews-name text-left">Elaine, 22</p>
+              <div class="w-100 mt-auto">
+                <p class="reviews-name">Elaine, 22</p>
+              </div>
           </div>
         </div>
       </div>
@@ -352,73 +303,74 @@
   </section>
 
   <!-- FAQS -->
-  <section id="faqs">
-    <section class="container">
-      <div class="rounded-3 py-5 px-3 px-sm-4 px-md-0">
-        <h1>FAQs</h1>
-        <p>Have a question? Verus has answers.</p>
-        <div class="row justify-content-center pb-lg-4 pb-xl-5">
-          <div class="col-xl-8 col-lg-9 col-md-10 pb-md-2">
-            <div class="accordion" id="faq">
+  <div class="accordion" id="accordionAlt">
+    <section id="faqs">
+      <section class="container">
+        <div class="rounded-3 py-5 px-3 px-sm-4 px-md-0">
+          <h1>FAQs</h1>
+          <p>Have a question? Verus has answers.</p>
+          <div class="row justify-content-center pb-lg-4 pb-xl-5">
+            <div class="col-xl-8 col-lg-9 col-md-10 pb-md-2">
+              <div class="accordion" id="faq">
 
-              <!-- Item -->
-              <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
-                <h2 class="accordion-header">
-                  <button class="accordion-button shadow-none rounded-3 collapsed" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#q-1" aria-expanded="false" aria-controls="q-1">What is
-                    Verus and how does it work?</button>
-                </h2>
-                <div class="accordion-collapse collapse" id="q-1" data-bs-parent="#faq">
-                  <div class="accordion-body fs-sm pt-0">
-                    <p>Verus is a virtual reality platform that delivers real-time live music experiences from
-                      anywhere in the world. With Verus, you can immerse yourself in a real-time show, concert, or
-                      festival setting.</p>
+                <!-- Item -->
+                <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button shadow-none rounded-3 collapsed" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#q-1" aria-expanded="false" aria-controls="q-1">What is
+                      Verus and how does it work?</button>
+                  </h2>
+                  <div class="accordion-collapse collapse" id="q-1" data-bs-parent="#faq">
+                    <div class="accordion-body fs-sm pt-0">
+                      <p>Verus is a virtual reality platform that delivers real-time live music experiences from
+                        anywhere in the world. With Verus, you can immerse yourself in a real-time show, concert, or
+                        festival setting.</p>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              <!-- Item -->
-              <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
-                <h2 class="accordion-header">
-                  <button class="accordion-button shadow-none rounded-3 collapsed" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#q-2" aria-expanded="false" aria-controls="q-2">How is
-                    this different from other courses on the market?</button>
-                </h2>
-                <div class="accordion-collapse collapse" id="q-2" data-bs-parent="#faq">
-                  <div class="accordion-body fs-sm pt-0">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in facilisis nibh. Vestibulum
-                      ac porttitor sapien. Curabitur laoreet malesuada gravida. Phasellus vehicula vestibulum
-                      consequat. Curabitur feugiat eget sem vitae laoreet. Fusce porttitor finibus tellus, quis
-                      condimentum nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-                      cubilia curae; Vivamus vehicula malesuada magna at viverra. Fusce non est eget libero
-                      convallis fringilla suspendisse.</p>
-                    <p>Nunc dolor velit, interdum finibus bibendum vel, mattis a magna. Mauris mollis sapien ac mi
-                      aliquet varius. Proin nec est nibh. Dignissim amet adipiscing massa integer.</p>
+                <!-- Item -->
+                <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button shadow-none rounded-3 collapsed" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#q-2" aria-expanded="false" aria-controls="q-2">How is
+                      this different from other courses on the market?</button>
+                  </h2>
+                  <div class="accordion-collapse collapse" id="q-2" data-bs-parent="#faq">
+                    <div class="accordion-body fs-sm pt-0">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in facilisis nibh. Vestibulum
+                        ac porttitor sapien. Curabitur laoreet malesuada gravida. Phasellus vehicula vestibulum
+                        consequat. Curabitur feugiat eget sem vitae laoreet. Fusce porttitor finibus tellus, quis
+                        condimentum nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                        cubilia curae; Vivamus vehicula malesuada magna at viverra. Fusce non est eget libero
+                        convallis fringilla suspendisse.</p>
+                      <p>Nunc dolor velit, interdum finibus bibendum vel, mattis a magna. Mauris mollis sapien ac mi
+                        aliquet varius. Proin nec est nibh. Dignissim amet adipiscing massa integer.</p>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              <!-- Item -->
-              <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
-                <h2 class="accordion-header">
-                  <button class="accordion-button shadow-none rounded-3 collapsed" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#q-3" aria-expanded="false" aria-controls="q-3">Is Verus
-                    really free? </button>
-                </h2>
-                <div class="accordion-collapse collapse" id="q-3" data-bs-parent="#faq">
-                  <div class="accordion-body">
-                    <p>Yes, Verus is free to use. Verus focuses on making live music events accessible to everyone by
-                      offering a convenient, safe and secure, and social experience to anyone. If you would like a
-                      more complete Verus experience,, upgrade to our premium membership tier.</p>
+                <!-- Item -->
+                <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button shadow-none rounded-3 collapsed" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#q-3" aria-expanded="false" aria-controls="q-3">Is Verus
+                      really free? </button>
+                  </h2>
+                  <div class="accordion-collapse collapse" id="q-3" data-bs-parent="#faq">
+                    <div class="accordion-body">
+                      <p>Yes, Verus is free to use. Verus focuses on making live music events accessible to everyone by
+                        offering a convenient, safe and secure, and social experience to anyone. If you would like a
+                        more complete Verus experience,, upgrade to our premium membership tier.</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    </div>
+      </section>
+  </div>
   </section>
 
   <!-- CTA -->
@@ -433,9 +385,9 @@
           <h6>TRY TODAY</h6>
           <h1>ATTEND YOUR NEXT SHOW WITH VERUS</h1>
           <p>Experience your next live music event in virtual reality and join the thousands of music lovers who
-            are already loving Verus.</p>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" class="btn primary btn-lg px-4 me-md-2">Find an Event</button>
+            are loving Verus.</p>
+          <div class="cta-button d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="button-primary px-4 me-md-2">Find an Event</button>
           </div>
         </div>
       </div>
@@ -496,14 +448,18 @@
       </footer>
     </div>
   </section>
-</body>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
-  integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
-  integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
-<script src="js/index.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+    crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
+</body>
 
 </html>
