@@ -15,6 +15,7 @@ html {
 body {
     font-family: 'Montserrat';
     background: linear-gradient(90deg, #180D21, #081631);
+    /* background: #060E20; */
     color: #F6F6F6;
     position: relative;
     margin: 0;
@@ -398,6 +399,9 @@ video[poster] {
 }
 
 /* ABOUT */
+#about {
+    padding-bottom: 20px;
+}
 .about-button {
     padding-top: 40px;
 }
@@ -408,6 +412,22 @@ video[poster] {
     border-radius: 20px;
 }
 
+/* COMPATITBLE */
+#compatible {
+    /* background-color: #060E20; */
+    /* padding-top: 40px; */
+    padding-bottom: 120px;
+}
+
+.compatible-title {
+    text-align: center;
+}
+
+.vr-logos {
+    display: flex;
+    padding-top: 40px;
+    /* background-color: #D41D86; */
+}
 
 /* FEATURES */
 #features {
@@ -532,6 +552,7 @@ video[poster] {
 
 .faqs-title {
     padding-bottom: 20px;
+    text-align: center;
 }
 
 details {
